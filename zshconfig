@@ -1,0 +1,16 @@
+# Crucial formatting variables
+  LS_COLORS=$LS_COLORS:'ow=01;34:' ; export LS_COLORS
+  LS_COLORS=$LS_COLORS:'di=1;35:' ; export LS_COLORSexport
+# DISPLAY=localhost:0.0
+
+
+# Virtualenv Variables
+  export WORKON_HOME=~/Envs
+  VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+  source /usr/local/bin/virtualenvwrapper.sh
+
+# NPM
+ export PATH=~/.npm-global/bin:$PATH
+
+# XServer
+ export DISPLAY=localhost:0.0
